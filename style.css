@@ -1,0 +1,52 @@
+header {
+  height: 150px;
+  background-color: darkorange;
+  color: grey;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.div1 {
+  border: 1px solid gray;
+  margin: 16px;
+  padding: 10px;
+  display: inline-block;
+  width: 29%;
+  border-radius: 5px;
+  text-align: justify;
+  color: rgb(253, 253, 253);
+}
+h3 {
+  text-align: center;
+  height: 30px;
+  background-color: lightblue;
+  padding-top: 8px;
+  color: brown;
+}
+#id1 {
+  background-image: url(images/cricket.jpg);
+  background-size: cover;
+}
+#id2 {
+  background-image: url(images/marathon.jpg);
+  background-size: cover;
+}
+#id3 {
+  background-image: url(images/chess.jpg);
+  background-size: cover;
+  background-position: center;
+}
+button {
+  background-color: rgb(255, 76, 21);
+  color: beige;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#display {
+  /* display: none; */
+  visibility: hidden;
+}
